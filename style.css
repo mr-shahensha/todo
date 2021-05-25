@@ -56,3 +56,7 @@ form button:hover{
 .todo li{
     flex: 1;
 }
+.completed{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
