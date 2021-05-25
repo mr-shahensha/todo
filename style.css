@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    background-color: teal;
+    color: white;
+}
+header,form{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+form input ,form button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: thistle;
+}
+form button{
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+    
+}
+form button:hover{
+    background-color: brown;
+    color: black ;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 20%;
+    list-style: none;
+}
+.todo{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+
+}
+.todo button{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.todo li{
+    flex: 1;
+}
